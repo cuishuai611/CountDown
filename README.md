@@ -1,7 +1,7 @@
 #CountDown.js
 时分秒倒计时小插件
 
-在线演示地址：http://cs.usmouse.com/git/CountDown/demo.html
+在线演示地址：http://www.0317news.cn/git/CountDown/demo.html
 
 author: Mr Cui
 
