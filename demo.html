@@ -14,8 +14,8 @@
 	 <p id='p' ctime='2017/10/15 00:00:00'></p>
 	 <p class='p2' ctime='2017/9/13 12:59:00'></p>
 	 <p class='p2' ctime='2017/9/13 17:08:00'></p>
-	 <p class='p3' ctime='2017/9/10 12:49:00'></p>
-	 <p class='p3' ctime='2017/3/24 12:08:00'></p>
+	 <p class='p3' ctime='2017/9/20 12:49:00'></p>
+	 <p class='p3' ctime='2017/9/24 12:08:00'></p>
 <script>
 /*
  *   container：倒计时节点元素（必填），可以是class类名('.class')，标签名('label')，id名('#id');
@@ -27,16 +27,20 @@
  *   可精确到毫秒2位数，目前只支（时、分、秒）与（分、秒、毫秒）两种，可自动个位补零
  *
  *   如有其他单位需求，稍加修改即可
+ *
+ *   请轻喷
 */
 
 	Count({
 		container : '#p',
 		intervals : 1000
 	});
+
     Count({
 		container : '.p2',
 		intervals : 1000
 	});
+
 	Count({
 		container : '.p3',
 		intervals : 10,
